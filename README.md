@@ -18,6 +18,22 @@ Snow-viper is a patented water-to-air cooling system that uses a coil-inside-a-c
 - Achieves sub-zero temperatures capable of freezing water
 - Integrated water-to-air heat exchanger for direct cold-air delivery
 
+## Photos
+
+Photos and diagrams of the Snow-viper system are stored in the [`images/`](images/) folder.
+
+<!-- To display a photo, upload it to the images/ folder and then add a line like the one below: -->
+<!-- ![Description of photo](images/your-photo-filename.jpg) -->
+
+> **How to add a photo:**
+> 1. On GitHub, click **Add file → Upload files** (or open the `images/` folder first and upload there).
+> 2. Drag your photo into the upload area, or click **choose your files** and select it from your computer.
+> 3. Give the upload a short commit message (e.g. `Add photo of working model`) and click **Commit changes**.
+> 4. To show the photo in this README, edit this file and add a line in the Photos section above using the format:
+>    ```
+>    ![Description of the photo](images/your-filename.jpg)
+>    ```
+
 ## Patent
 
 This invention has been patented. A working model was built, submitted, and tested through the patent process.
