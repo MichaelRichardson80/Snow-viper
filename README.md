@@ -88,6 +88,6 @@ This invention has been patented. A working model was built, submitted, and test
 
 Interested in licensing, partnering, or purchasing the Snow Viper technology for automotive or industrial use?
 
-📧 **Contact the inventor:** [MichaelRichardson80 on GitHub](https://github.com/MichaelRichardson80) — open an [Issue](../../issues/new) in this repository or use the email address on the inventor's GitHub profile.
+📧 **Contact the inventor:** [michaeldrichardsonjr@me.com](mailto:michaeldrichardsonjr@me.com)
 
-> **Inventor's note:** If you are a manufacturer, distributor, or tuning shop interested in integrating Snow Viper cooling into turbocharged / supercharged water-to-air intercooler systems, please reach out. Licensing and co-development enquiries are welcome.
+> **Inventor's note:** If you are a manufacturer, distributor, or tuning shop interested in integrating Snow Viper cooling into turbocharged / supercharged water-to-air intercooler systems, please reach out. Licensing and co-development inquiries are welcome.
