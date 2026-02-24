@@ -1,5 +1,5 @@
 # Snow-viper
-Water to air inner cooling CO2 cooling system
+CO2-powered cooling upgrade for any water-to-air intercooler system
 
 ## Overview
 
@@ -20,10 +20,10 @@ Snow-viper is a patented water-to-air cooling system that uses a coil-inside-a-c
 - Integrated water-to-air heat exchanger for direct cold-air delivery
 - Built-in CO2 dispersion bar releases CO2 in front of the heat exchanger as part of normal system operation
 
-## Automotive Application — Turbocharged & Supercharged Engines
+## Automotive Application — All Water-to-Air Intercooler Systems
 
-> **Are you running a turbocharged or supercharged engine?**
-> The Snow Viper is the ultimate **water-to-air intercooler upgrade** for high-performance forced-induction vehicles.
+> **Running any forced-induction or intake-cooled engine?**
+> Snow Viper is the ultimate CO2 cooling upgrade for **any vehicle equipped with a water-to-air intercooler** — turbocharged, supercharged, or intake-based.
 
 ### Why Water-to-Air Intercooling?
 
@@ -44,13 +44,51 @@ Turbocharged and supercharged engines compress intake air, which raises its temp
 - **Street/strip builds** – consistent power from pull to pull
 - **Track days** – no heat soak between sessions
 - **Diesel performance** – cooler charge air = more fuel, more torque
-- Any turbocharged or supercharged petrol/diesel engine running a water-to-air intercooler
+- Any turbocharged or supercharged engine running a water-to-air intercooler
+- **Intake-based intercooler builds** – vehicles where the heat exchanger is integrated into or near the intake manifold
+
+### Intake-Based Intercooler Model
+
+Snow Viper is also available in a configuration designed for **intake-manifold-mounted water-to-air intercoolers** — found on many factory supercharged vehicles (e.g. LSA/LT4 Corvettes, CTS-V, Hellcat-based platforms, factory twin-screw applications) as well as aftermarket intake intercooler kits.
+
+In this model the coil-inside-a-coil chiller unit is integrated into the intake intercooler circuit, delivering the same sub-zero water temperatures directly to the intake-mounted heat exchanger. The CO2 dispersion bar is routed to suit the intake location rather than the front of the car.
 
 ### Keywords (for search engines)
 
-`water to air intercooler` · `turbo intercooler upgrade` · `CO2 intercooler cooling` · `snow viper intercooler` · `heat soak eliminator` · `drag race intercooler` · `supercharger intercooler` · `forced induction cooling` · `CO2 water chiller` · `high performance intercooler`
+`water to air intercooler` · `turbo intercooler upgrade` · `CO2 intercooler cooling` · `snow viper intercooler` · `heat soak eliminator` · `drag race intercooler` · `supercharger intercooler` · `forced induction cooling` · `CO2 water chiller` · `high performance intercooler` · `intake intercooler upgrade` · `intake manifold intercooler cooling` · `LSA LT4 intercooler chiller` · `factory supercharger intercooler upgrade`
 
-## Activation & Control Options
+## Industry Invitation — Licensing & Partnership Opportunities
+
+Snow Viper is a **patented, working technology** that is ready for commercial production. We are actively seeking manufacturing, distribution, and co-development partners across the performance automotive industry.
+
+### Companies We'd Like to Connect With
+
+The following companies are exactly the kind of partners this technology is built for. If you represent one of these organizations — or any other company, shop, or individual in this space — **we want to hear from you**.
+
+| Company | Why Snow Viper fits |
+|---|---|
+| **Holley Performance** (Ty Peak, owner) | Holley's broad ecosystem of EFI, intake, and cooling products is a natural home for Snow Viper integration |
+| **Nitrous Express** | CO2/nitrous delivery expertise and an existing customer base of high-power builders |
+| **DEI (Design Engineering, Inc.)** | Thermal management market leader — Snow Viper extends DEI's heat-control product line into active CO2 cooling |
+| **Snow Performance** | Direct market overlap in water/methanol and cooling injection; Snow Viper adds a CO2 intercooler-chiller option |
+| **AEM (Advanced Engine Management)** | AEM's water/meth kits and electronics are a natural integration point for Snow Viper's ECU-triggered control |
+
+### Open Invitation
+
+This invitation is not limited to the companies above. We welcome contact from **any manufacturer, distributor, tuning company, performance shop, racing team, or individual** interested in:
+
+- **Licensing** the patented Snow Viper technology
+- **Co-development** to integrate Snow Viper into an existing product line
+- **Distribution** of a finished Snow Viper product
+- **Private-label / OEM** manufacturing partnerships
+
+📺 **Watch the Snow Viper commercial and product presentation:**  
+🔗 **[inventionland.com / snowviper.com](https://www.inventionland.com/?s=snow+viper)**
+
+📧 **Send a partnership inquiry:** [michaeldrichardsonjr@me.com](mailto:michaeldrichardsonjr@me.com)  
+📞 **Call directly:** [256-627-6112](tel:+12566276112)
+
+
 
 Snow Viper is designed to work with whatever trigger method suits your build:
 
@@ -87,13 +125,14 @@ Photos and diagrams of the Snow-viper system are stored in the [`images/`](image
 >    ![Description of the photo](images/your-filename.jpg)
 >    ```
 
-## Invention Land
+## Invention Land & Snow Viper Commercial
 
-[Invention Land](https://www.inventionland.com/) is a leading invention-services company that helps independent inventors commercialize their ideas.
+[Invention Land](https://www.inventionland.com/) is a leading invention-services company that helps independent inventors commercialize their ideas. Snow Viper was developed and produced with Invention Land's support.
 
-🔍 **[Search Invention Land for "Snow Viper"](https://www.inventionland.com/?s=snow+viper)**
+📺 **Watch the Snow Viper product commercial and presentation:**  
+🔗 **[inventionland.com — Search "Snow Viper"](https://www.inventionland.com/?s=snow+viper)**
 
-If Snow Viper is listed on their platform you will find product details, media, and commercialization information at the link above.
+The commercial showcases the system, its applications, and the inventor's vision for bringing Snow Viper to market. Share it with anyone who might be interested in licensing or partnering.
 
 ## Patent
 
@@ -111,6 +150,7 @@ This invention has been patented. A working model was built, submitted, and test
 
 Interested in licensing, partnering, or purchasing the Snow Viper technology for automotive or industrial use?
 
-📧 **Contact the inventor:** [michaeldrichardsonjr@me.com](mailto:michaeldrichardsonjr@me.com)
+📧 **Email the inventor:** [michaeldrichardsonjr@me.com](mailto:michaeldrichardsonjr@me.com)  
+📞 **Call directly:** [256-627-6112](tel:+12566276112)
 
 > **Inventor's note:** If you are a manufacturer, distributor, or tuning shop interested in integrating Snow Viper cooling into turbocharged / supercharged water-to-air intercooler systems, please reach out. Licensing and co-development inquiries are welcome.
