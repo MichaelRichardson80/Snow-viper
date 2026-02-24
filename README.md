@@ -10,6 +10,7 @@ Snow-viper is a patented water-to-air cooling system that uses a coil-inside-a-c
 1. **Inner coil** – CO2 is injected and sprayed through the inner coil. As the CO2 expands and vaporises it absorbs heat rapidly, dropping the temperature of the surrounding area to below freezing.
 2. **Outer coil** – Water circulates through the outer coil that surrounds the inner coil. The CO2 expansion inside the inner coil freezes the water in the outer coil.
 3. **Water-to-air heat exchange** – The frozen/chilled water in the outer coil is used to cool air passing over the cooler unit, delivering cold air output.
+4. **CO2 dispersion bar** – The CO2 is then routed through a line to the heat exchanger location (typically the front of the car). There it feeds into a built-in rectangular rounded pipe fitted with small holes that release the CO2 directly in front of the heat exchanger face, cooling the heat exchanger as part of the system's standard operation.
 
 ## Key Features
 
@@ -17,6 +18,7 @@ Snow-viper is a patented water-to-air cooling system that uses a coil-inside-a-c
 - Uses CO2 as the refrigerant, sprayed directly through the inner coil
 - Achieves sub-zero temperatures capable of freezing water
 - Integrated water-to-air heat exchanger for direct cold-air delivery
+- Built-in CO2 dispersion bar releases CO2 in front of the heat exchanger as part of normal system operation
 
 ## Automotive Application — Turbocharged & Supercharged Engines
 
@@ -47,6 +49,27 @@ Turbocharged and supercharged engines compress intake air, which raises its temp
 ### Keywords (for search engines)
 
 `water to air intercooler` · `turbo intercooler upgrade` · `CO2 intercooler cooling` · `snow viper intercooler` · `heat soak eliminator` · `drag race intercooler` · `supercharger intercooler` · `forced induction cooling` · `CO2 water chiller` · `high performance intercooler`
+
+## Activation & Control Options
+
+Snow Viper is designed to work with whatever trigger method suits your build:
+
+| Method | How it works |
+|---|---|
+| **WOT (Wide Open Throttle) switch** | A switch mounted under the throttle pedal activates the CO2 solenoid the moment the throttle is floored — ensuring maximum cooling right when you need it most. |
+| **ECU / tuning software (e.g. HP Tuners)** | The solenoid can be wired to an ECU output and programmed to engage at a precise intake air temperature target. HP Tuners and similar platforms can trigger the system automatically, keeping inlet temps exactly where you want them. |
+| **Toggle switch** | A simple driver-controlled toggle switch allows manual on/off activation — ideal for track days or street driving where the driver wants direct control. |
+
+All three methods can be used independently or combined in a single installation.
+
+## Real-World Installation
+
+> *The following is the inventor's own installation, built as the proof-of-concept for the Snow Viper system.*
+
+**Vehicle:** 2000 Lingenfelter Corvette  
+**Forced induction:** Twin mirror-image turbochargers  
+**Water tank:** 7.0-gallon reservoir  
+**Activation:** WOT switch under the throttle pedal (also compatible with HP Tuners programming and toggle switch)
 
 ## Photos
 
