@@ -1,2 +1,156 @@
 # Snow-viper
-Water to air inner cooling CO2 cooling system
+CO2-powered cooling upgrade for any water-to-air intercooler system
+
+## Overview
+
+Snow-viper is a patented water-to-air cooling system that uses a coil-inside-a-coil design with CO2 to achieve rapid cooling. The system sprays CO2 through an inner coil that is housed inside an outer coil, causing the CO2 to freeze the water passing through the outer coil. This produces chilled air from a water-to-air heat exchanger (cooler).
+
+## How It Works
+
+1. **Inner coil** – CO2 is injected and sprayed through the inner coil. As the CO2 expands and vaporises it absorbs heat rapidly, dropping the temperature of the surrounding area to below freezing.
+2. **Outer coil** – Water circulates through the outer coil that surrounds the inner coil. The CO2 expansion inside the inner coil freezes the water in the outer coil.
+3. **Water-to-air heat exchange** – The frozen/chilled water in the outer coil is used to cool air passing over the cooler unit, delivering cold air output.
+4. **CO2 dispersion bar** – The CO2 is then routed through a line to the heat exchanger location (typically the front of the car). There it feeds into a built-in rectangular rounded pipe fitted with small holes that release the CO2 directly in front of the heat exchanger face, cooling the heat exchanger as part of the system's standard operation.
+
+## Key Features
+
+- Coil-inside-a-coil design for maximum surface contact between CO2 and water
+- Uses CO2 as the refrigerant, sprayed directly through the inner coil
+- Achieves sub-zero temperatures capable of freezing water
+- Integrated water-to-air heat exchanger for direct cold-air delivery
+- Built-in CO2 dispersion bar releases CO2 in front of the heat exchanger as part of normal system operation
+
+## Automotive Application — All Water-to-Air Intercooler Systems
+
+> **Running any forced-induction or intake-cooled engine?**
+> Snow Viper is the ultimate CO2 cooling upgrade for **any vehicle equipped with a water-to-air intercooler** — turbocharged, supercharged, or intake-based.
+
+### Why Water-to-Air Intercooling?
+
+Turbocharged and supercharged engines compress intake air, which raises its temperature dramatically. Hot intake air reduces power, increases knock risk, and shortens engine life. A water-to-air intercooler solves this by routing compressed air through a heat exchanger cooled by a water circuit — and the **Snow Viper supercharges that water circuit**.
+
+### How Snow Viper Improves Your Intercooler
+
+| Problem | Snow Viper Solution |
+|---|---|
+| Water temp rises under sustained boost | CO2 injection freezes the water circuit, keeping inlet temps near 0 °C |
+| Ice-bath tanks add weight and complexity | Coil-inside-a-coil design is compact and self-contained |
+| Power lost to heat soak | Sub-zero water temps eliminate heat soak entirely |
+| Knock / detonation risk | Dense, cold intake charge allows higher boost & ignition advance |
+
+### Ideal For
+
+- **Drag racing** – maximum power on every run with a frozen water charge
+- **Street/strip builds** – consistent power from pull to pull
+- **Track days** – no heat soak between sessions
+- **Diesel performance** – cooler charge air = more fuel, more torque
+- Any turbocharged or supercharged engine running a water-to-air intercooler
+- **Intake-based intercooler builds** – vehicles where the heat exchanger is integrated into or near the intake manifold
+
+### Intake-Based Intercooler Model
+
+Snow Viper is also available in a configuration designed for **intake-manifold-mounted water-to-air intercoolers** — found on many factory supercharged vehicles (e.g. LSA/LT4 Corvettes, CTS-V, Hellcat-based platforms, factory twin-screw applications) as well as aftermarket intake intercooler kits.
+
+In this model the coil-inside-a-coil chiller unit is integrated into the intake intercooler circuit, delivering the same sub-zero water temperatures directly to the intake-mounted heat exchanger. The CO2 dispersion bar is routed to suit the intake location rather than the front of the car.
+
+### Keywords (for search engines)
+
+`water to air intercooler` · `turbo intercooler upgrade` · `CO2 intercooler cooling` · `snow viper intercooler` · `heat soak eliminator` · `drag race intercooler` · `supercharger intercooler` · `forced induction cooling` · `CO2 water chiller` · `high performance intercooler` · `intake intercooler upgrade` · `intake manifold intercooler cooling` · `LSA LT4 intercooler chiller` · `factory supercharger intercooler upgrade`
+
+## Industry Invitation — Licensing & Partnership Opportunities
+
+Snow Viper is a **patented, working technology** that is ready for commercial production. We are actively seeking manufacturing, distribution, and co-development partners across the performance automotive industry.
+
+### Companies We'd Like to Connect With
+
+The following companies are exactly the kind of partners this technology is built for. If you represent one of these organizations — or any other company, shop, or individual in this space — **we want to hear from you**.
+
+| Company | Why Snow Viper fits |
+|---|---|
+| **Holley Performance** (Ty Peak, owner) | Holley's broad ecosystem of EFI, intake, and cooling products is a natural home for Snow Viper integration |
+| **Nitrous Express** | CO2/nitrous delivery expertise and an existing customer base of high-power builders |
+| **DEI (Design Engineering, Inc.)** | Thermal management market leader — Snow Viper extends DEI's heat-control product line into active CO2 cooling |
+| **Snow Performance** | Direct market overlap in water/methanol and cooling injection; Snow Viper adds a CO2 intercooler-chiller option |
+| **AEM (Advanced Engine Management)** | AEM's water/meth kits and electronics are a natural integration point for Snow Viper's ECU-triggered control |
+
+### Open Invitation
+
+This invitation is not limited to the companies above. We welcome contact from **any manufacturer, distributor, tuning company, performance shop, racing team, or individual** interested in:
+
+- **Licensing** the patented Snow Viper technology
+- **Co-development** to integrate Snow Viper into an existing product line
+- **Distribution** of a finished Snow Viper product
+- **Private-label / OEM** manufacturing partnerships
+
+📺 **Watch the Snow Viper commercial and product presentation:**  
+🔗 **[inventionland.com / snowviper.com](https://www.inventionland.com/?s=snow+viper)**
+
+📧 **Send a partnership inquiry:** [michaeldrichardsonjr@me.com](mailto:michaeldrichardsonjr@me.com)  
+📞 **Call directly:** [256-627-6112](tel:+12566276112)
+
+
+
+Snow Viper is designed to work with whatever trigger method suits your build:
+
+| Method | How it works |
+|---|---|
+| **WOT (Wide Open Throttle) switch** | A switch mounted under the throttle pedal activates the CO2 solenoid the moment the throttle is floored — ensuring maximum cooling right when you need it most. |
+| **ECU / tuning software (e.g. HP Tuners)** | The solenoid can be wired to an ECU output and programmed to engage at a precise intake air temperature target. HP Tuners and similar platforms can trigger the system automatically, keeping inlet temps exactly where you want them. |
+| **Toggle switch** | A simple driver-controlled toggle switch allows manual on/off activation — ideal for track days or street driving where the driver wants direct control. |
+
+All three methods can be used independently or combined in a single installation.
+
+## Real-World Installation
+
+> *The following is the inventor's own installation, built as the proof-of-concept for the Snow Viper system.*
+
+**Vehicle:** 2000 Lingenfelter Corvette  
+**Forced induction:** Twin mirror-image turbochargers  
+**Water tank:** 7.0-gallon reservoir  
+**Activation:** WOT switch under the throttle pedal (also compatible with HP Tuners programming and toggle switch)
+
+## Photos
+
+Photos and diagrams of the Snow-viper system are stored in the [`images/`](images/) folder.
+
+<!-- To display a photo, upload it to the images/ folder and then add a line like the one below: -->
+<!-- ![Description of photo](images/your-photo-filename.jpg) -->
+
+> **How to add a photo:**
+> 1. On GitHub, click **Add file → Upload files** (or open the `images/` folder first and upload there).
+> 2. Drag your photo into the upload area, or click **choose your files** and select it from your computer.
+> 3. Give the upload a short commit message (e.g. `Add photo of working model`) and click **Commit changes**.
+> 4. To show the photo in this README, edit this file and add a line in the Photos section above using the format:
+>    ```
+>    ![Description of the photo](images/your-filename.jpg)
+>    ```
+
+## Invention Land & Snow Viper Commercial
+
+[Invention Land](https://www.inventionland.com/) is a leading invention-services company that helps independent inventors commercialize their ideas. Snow Viper was developed and produced with Invention Land's support.
+
+📺 **Watch the Snow Viper product commercial and presentation:**  
+🔗 **[inventionland.com — Search "Snow Viper"](https://www.inventionland.com/?s=snow+viper)**
+
+The commercial showcases the system, its applications, and the inventor's vision for bringing Snow Viper to market. Share it with anyone who might be interested in licensing or partnering.
+
+## Patent
+
+This invention has been patented. A working model was built, submitted, and tested through the patent process.
+
+## Status
+
+- [x] Invention conceived
+- [x] Working model built
+- [x] Working model tested
+- [x] Patent filed and granted
+- [ ] Commercial production / sales partnership
+
+## Inquiries & Licensing
+
+Interested in licensing, partnering, or purchasing the Snow Viper technology for automotive or industrial use?
+
+📧 **Email the inventor:** [michaeldrichardsonjr@me.com](mailto:michaeldrichardsonjr@me.com)  
+📞 **Call directly:** [256-627-6112](tel:+12566276112)
+
+> **Inventor's note:** If you are a manufacturer, distributor, or tuning shop interested in integrating Snow Viper cooling into turbocharged / supercharged water-to-air intercooler systems, please reach out. Licensing and co-development inquiries are welcome.
