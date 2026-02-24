@@ -34,6 +34,14 @@ Photos and diagrams of the Snow-viper system are stored in the [`images/`](image
 >    ![Description of the photo](images/your-filename.jpg)
 >    ```
 
+## Invention Land
+
+[Invention Land](https://www.inventionland.com/) is a leading invention-services company that helps independent inventors commercialize their ideas.
+
+🔍 **[Search Invention Land for "Snow Viper"](https://www.inventionland.com/?s=snow+viper)**
+
+If Snow Viper is listed on their platform you will find product details, media, and commercialization information at the link above.
+
 ## Patent
 
 This invention has been patented. A working model was built, submitted, and tested through the patent process.
