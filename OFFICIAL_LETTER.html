@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snow Viper — Official Business Letter</title>
+  <style>
+    /* ── Reset & base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: #f4f4f4;
+      color: #1a1a1a;
+      padding: 40px 20px;
+    }
+
+    /* ── Letter wrapper ── */
+    .letter {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #ffffff;
+      border: 1px solid #d0d0d0;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+    }
+
+    /* ── Header / Letterhead ── */
+    .letterhead {
+      background: #0a0a0a;
+      color: #ffffff;
+      padding: 36px 48px 28px;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      border-bottom: 5px solid #c8102e;
+    }
+    .logo-slot {
+      flex-shrink: 0;
+      width: 110px;
+      height: 110px;
+      border: 3px solid #c8102e;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .logo-slot img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+    .brand-block { flex: 1; }
+    .brand-block h1 {
+      font-family: Arial, sans-serif;
+      font-size: 34px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+    .brand-block h1 span { color: #c8102e; }
+    .brand-block .tagline {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #aaaaaa;
+      text-transform: uppercase;
+      margin-top: 6px;
+    }
+    .brand-block .status-pills {
+      margin-top: 12px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .pill {
+      background: #c8102e;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 3px;
+    }
+    .pill.dark { background: #333; }
+
+    /* ── Body padding ── */
+    .letter-body { padding: 40px 48px 36px; }
+
+    /* ── Date & address block ── */
+    .meta { margin-bottom: 28px; }
+    .meta .date {
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 18px;
+    }
+    .recipient-block {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #333;
+    }
+    .recipient-block strong { font-size: 15px; color: #0a0a0a; }
+    .field {
+      display: inline;
+      background: #fff8c5;
+      border-bottom: 1.5px solid #f0b429;
+      padding: 0 3px;
+      border-radius: 2px;
+      font-style: italic;
+      color: #7a5900;
+    }
+
+    /* ── Subject line ── */
+    .subject-line {
+      background: #f7f7f7;
+      border-left: 4px solid #c8102e;
+      padding: 10px 16px;
+      margin: 24px 0 28px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #0a0a0a;
+      letter-spacing: 0.3px;
+    }
+    .subject-line span { color: #c8102e; }
+
+    /* ── Body text ── */
+    .letter-body p {
+      font-size: 14.5px;
+      line-height: 1.85;
+      color: #222;
+      margin-bottom: 16px;
+    }
+    .letter-body p:last-of-type { margin-bottom: 0; }
+
+    /* ── Highlights box ── */
+    .highlights {
+      background: #fafafa;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+    .highlights h3 {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #c8102e;
+      margin-bottom: 12px;
+    }
+    .highlights ul {
+      list-style: none;
+      padding: 0;
+    }
+    .highlights ul li {
+      font-size: 14px;
+      line-height: 1.7;
+      color: #333;
+      padding-left: 22px;
+      position: relative;
+      margin-bottom: 6px;
+    }
+    .highlights ul li::before {
+      content: "✓";
+      color: #c8102e;
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+    }
+
+    /* ── Opportunity table ── */
+    .opp-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 24px 0;
+      font-size: 13.5px;
+    }
+    .opp-table th {
+      background: #0a0a0a;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .opp-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e8e8e8;
+      vertical-align: top;
+      line-height: 1.6;
+    }
+    .opp-table tr:nth-child(even) td { background: #f9f9f9; }
+    .opp-table td:first-child { font-weight: 700; white-space: nowrap; }
+
+    /* ── CTA block ── */
+    .cta-block {
+      background: #0a0a0a;
+      color: #fff;
+      border-radius: 6px;
+      padding: 22px 26px;
+      margin: 28px 0 32px;
+      font-family: Arial, sans-serif;
+    }
+    .cta-block p {
+      font-size: 13px;
+      color: #ccc;
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    .cta-block .cta-url {
+      font-size: 13px;
+      color: #ff6b6b;
+      word-break: break-all;
+    }
+    .cta-block .cta-label {
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 4px;
+      display: block;
+    }
+
+    /* ── Signature ── */
+    .signature { margin-top: 32px; }
+    .signature .closing { font-size: 14.5px; margin-bottom: 6px; }
+    .signature .sig-name {
+      font-family: 'Georgia', serif;
+      font-size: 22px;
+      font-style: italic;
+      color: #0a0a0a;
+      margin: 10px 0 2px;
+    }
+    .signature .sig-title {
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #888;
+    }
+    .signature .sig-contact {
+      margin-top: 12px;
+      font-family: Arial, sans-serif;
+      font-size: 12.5px;
+      color: #555;
+      line-height: 1.8;
+    }
+    .signature .sig-contact a { color: #c8102e; text-decoration: none; }
+
+    /* ── Footer ── */
+    .letter-footer {
+      background: #f0f0f0;
+      border-top: 3px solid #c8102e;
+      padding: 14px 48px;
+      font-family: Arial, sans-serif;
+      font-size: 11px;
+      color: #888;
+      text-align: center;
+      letter-spacing: 0.5px;
+    }
+
+    /* ── Print styles ── */
+    @media print {
+      body { background: #fff; padding: 0; }
+      .letter { box-shadow: none; border: none; }
+      .logo-slot { border-style: solid; }
+      .instructions { display: none; }
+    }
+
+    /* ── Instructions banner (screen only) ── */
+    .instructions {
+      max-width: 780px;
+      margin: 0 auto 18px;
+      background: #fff8c5;
+      border: 1px solid #f0b429;
+      border-radius: 6px;
+      padding: 14px 20px;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #6b4c00;
+      line-height: 1.7;
+    }
+    .instructions strong { color: #3d2a00; }
+    .instructions ol { margin: 8px 0 0 20px; }
+  </style>
+</head>
+<body>
+
+  <!-- ── Instructions (visible on screen, hidden when printing) ── -->
+  <div class="instructions">
+    <strong>📋 How to use this letter:</strong>
+    <ol>
+      <li><strong>Fill in the highlighted fields</strong> — company name, contact name, date, and address.</li>
+      <li><strong>Print or save as PDF:</strong> Use <em>File → Print → Save as PDF</em> to produce a professional PDF to email as an attachment, or copy the text into your email client.</li>
+      <li><strong>Send to each company</strong> listed in README.md and PRODUCT_LISTING.md.</li>
+    </ol>
+  </div>
+
+  <!-- ── Letter ── -->
+  <div class="letter">
+
+    <!-- Letterhead -->
+    <div class="letterhead">
+      <div class="logo-slot">
+        <img src="https://github.com/user-attachments/assets/9aa71bd4-9cb5-4a26-9a43-fcb40ab10361" alt="Snow Viper Cooling System" />
+      </div>
+      <div class="brand-block">
+        <h1>Snow <span>Viper</span></h1>
+        <div class="tagline">Water-to-Air · CO₂ Inner Cooling System</div>
+        <div class="status-pills">
+          <span class="pill">✓ Patented</span>
+          <span class="pill dark">✓ Built &amp; Tested</span>
+          <span class="pill dark">✓ Ready for Manufacturing</span>
+          <span class="pill">For Sale</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="letter-body">
+
+      <!-- Date & Recipient -->
+      <div class="meta">
+        <div class="date">
+          Date: <span class="field">[Month Day, Year — e.g., February 24, 2026]</span>
+        </div>
+        <div class="recipient-block">
+          <strong><span class="field">[Contact First &amp; Last Name]</span></strong><br/>
+          <span class="field">[Title — e.g., Director of Product Development]</span><br/>
+          <span class="field">[Company Name — e.g., JEGS High Performance]</span><br/>
+          <span class="field">[Company Address, City, State, ZIP]</span>
+        </div>
+      </div>
+
+      <!-- Subject -->
+      <div class="subject-line">
+        <span>RE:</span> Patented Cooling Technology Available for Purchase or Licensing —
+        Snow Viper Water-to-Air CO₂ Cooling System
+      </div>
+
+      <!-- Salutation -->
+      <p>Dear <span class="field">[Contact Name / "To Whom It May Concern"]</span>,</p>
+
+      <!-- Opening -->
+      <p>
+        My name is <strong>Michael Richardson</strong>, and I am writing to present you with an
+        exclusive commercial opportunity: the <strong>Snow Viper</strong>, a patented,
+        built-and-tested water-to-air inner cooling system that uses CO₂ (R-744) refrigerant
+        technology to deliver superior thermal management performance.
+      </p>
+
+      <p>
+        I developed and personally built the Snow Viper prototype, which has been
+        <strong>physically constructed, tested, and fully patented</strong>. The design is
+        production-ready and can be scaled for mass manufacturing immediately. I am now
+        seeking a qualified buyer, licensee, or manufacturing partner to bring this
+        technology to market.
+      </p>
+
+      <!-- Highlights -->
+      <div class="highlights">
+        <h3>Snow Viper — Technology Highlights</h3>
+        <ul>
+          <li><strong>Patented</strong> — Full intellectual property protection in place</li>
+          <li><strong>Built &amp; Tested</strong> — Physical prototype constructed and validated</li>
+          <li><strong>Water-to-Air Heat Exchange</strong> — Highly efficient heat transfer from liquid to air medium</li>
+          <li><strong>CO₂ (R-744) Inner Cooling</strong> — Natural refrigerant with low global warming potential (GWP)</li>
+          <li><strong>Motorsports &amp; Automotive Ready</strong> — Ideal for race car engines, performance builds, and OEM vehicles</li>
+          <li><strong>Wide Application Range</strong> — Racing, automotive, HVAC, data centers, industrial, cold chain</li>
+          <li><strong>Ready for Mass Manufacturing</strong> — Scalable design suitable for OEM integration</li>
+        </ul>
+      </div>
+
+      <!-- Body continued -->
+      <p>
+        Given your company's leadership in the <span class="field">[performance parts / racing /
+        automotive cooling / HVAC]</span> industry, I believe the Snow Viper would be a
+        natural and valuable addition to your product portfolio. This technology gives end
+        users — from professional race teams to high-performance street builds — a
+        significant cooling advantage that no current off-the-shelf product offers.
+      </p>
+
+      <!-- Opportunity table -->
+      <table class="opp-table">
+        <thead>
+          <tr>
+            <th>Opportunity Type</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Outright Purchase</td>
+            <td>Acquire full ownership of the patent and all associated intellectual property</td>
+          </tr>
+          <tr>
+            <td>Exclusive License</td>
+            <td>Sole right to manufacture, market, and sell the Snow Viper in your market</td>
+          </tr>
+          <tr>
+            <td>Non-Exclusive License</td>
+            <td>License the technology alongside other manufacturers; lower entry cost</td>
+          </tr>
+          <tr>
+            <td>Manufacturing Partnership</td>
+            <td>Co-bring the product to market under a joint venture or royalty arrangement</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        I am open to discussing all of the above arrangements and am prepared to provide
+        additional technical documentation, test results, and a full patent disclosure under
+        a signed Non-Disclosure Agreement (NDA) upon request.
+      </p>
+
+      <p>
+        I am ready to move quickly and would welcome a call, video meeting, or written
+        proposal at your earliest convenience. Please do not hesitate to reach out — I am
+        confident that the Snow Viper represents a genuine market opportunity that will
+        benefit your company and your customers.
+      </p>
+
+      <!-- CTA block -->
+      <div class="cta-block">
+        <p><strong style="color:#fff;">To make an offer or request more information:</strong></p>
+        <span class="cta-label">GitHub Repository (full details &amp; specifications):</span>
+        <div class="cta-url">https://github.com/MichaelRichardson80/Snow-viper</div>
+        <br/>
+        <span class="cta-label">Submit an offer or inquiry directly:</span>
+        <div class="cta-url">https://github.com/MichaelRichardson80/Snow-viper/issues</div>
+      </div>
+
+      <!-- Closing -->
+      <p>
+        Thank you sincerely for your time and consideration. I look forward to the
+        possibility of working together.
+      </p>
+
+      <!-- Signature -->
+      <div class="signature">
+        <p class="closing">Respectfully,</p>
+        <div class="sig-name">Michael Richardson</div>
+        <div class="sig-title">Inventor &amp; Owner — Snow Viper Cooling System</div>
+        <div class="sig-contact">
+          GitHub: <a href="https://github.com/MichaelRichardson80/Snow-viper">github.com/MichaelRichardson80/Snow-viper</a><br/>
+          Inquiries: <a href="https://github.com/MichaelRichardson80/Snow-viper/issues">github.com/MichaelRichardson80/Snow-viper/issues</a>
+        </div>
+      </div>
+
+    </div><!-- /.letter-body -->
+
+    <!-- Footer -->
+    <div class="letter-footer">
+      Snow Viper &nbsp;·&nbsp; Patented Water-to-Air CO₂ Cooling System &nbsp;·&nbsp;
+      Built &amp; Tested &nbsp;·&nbsp; Ready for Manufacturing &nbsp;·&nbsp;
+      github.com/MichaelRichardson80/Snow-viper
+    </div>
+
+  </div><!-- /.letter -->
+
+</body>
+</html>
