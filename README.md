@@ -85,8 +85,8 @@ This invitation is not limited to the companies above. We welcome contact from *
 📺 **Watch the Snow Viper commercial and product presentation:**  
 🔗 **[inventionland.com / snowviper.com](https://www.inventionland.com/?s=snow+viper)**
 
-📧 **Send a partnership inquiry:** [michaeldrichardsonjr@me.com](mailto:michaeldrichardsonjr@me.com)  
-📞 **Call directly:** [256-627-6112](tel:+12566276112)
+📧 **Send a partnership inquiry:** [licensing@snowviper.com](mailto:licensing@snowviper.com)  
+📞 **Request a call:** Please reach out via email or the contact options on our website.
 
 
 
