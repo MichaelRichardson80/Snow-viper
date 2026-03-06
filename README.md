@@ -67,7 +67,7 @@ The following companies are exactly the kind of partners this technology is buil
 
 | Company | Why Snow Viper fits |
 |---|---|
-| **Holley Performance** (Ty Peak, owner) | Holley's broad ecosystem of EFI, intake, and cooling products is a natural home for Snow Viper integration |
+| **Holley Performance** | Holley's broad ecosystem of EFI, intake, and cooling products is a natural home for Snow Viper integration |
 | **Nitrous Express** | CO2/nitrous delivery expertise and an existing customer base of high-power builders |
 | **DEI (Design Engineering, Inc.)** | Thermal management market leader — Snow Viper extends DEI's heat-control product line into active CO2 cooling |
 | **Snow Performance** | Direct market overlap in water/methanol and cooling injection; Snow Viper adds a CO2 intercooler-chiller option |
